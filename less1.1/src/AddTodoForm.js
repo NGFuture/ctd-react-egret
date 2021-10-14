@@ -18,8 +18,8 @@ const AddTodoForm = (props) => {
         console.log(todoTitle);
         props.onAddTodo(
             {
-                id: Date.now(),
-                title:todoTitle,               
+                title:todoTitle,
+                id: Date.now()               
             }
         );
         setTodoTitle('');  
